@@ -18,3 +18,49 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country-list {
+  padding-left: 5px;
+}
+.js-country {
+  display: flex;
+  align-items: center;
+}
+.js-country-flags {
+  height: auto;
+  width: 30px;
+  margin-right: 10px;
+}
+.js-country span {
+  margin: 0;
+}
+
+.js-true-country {
+  display: flex;
+  flex-direction: column;
+}
+.js-true-country-title {
+  display: flex;
+  align-items: center;
+}
+.js-true-country-flags {
+  height: auto;
+  width: 30px;
+  margin-right: 10px;
+}
+.js-true-country-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.js-true-country-propertie {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.js-true-country-propertie li {
+  display: flex;
+}
+.js-true-country-subtitle {
+  font-weight: 700;
+  margin: 0;
+}

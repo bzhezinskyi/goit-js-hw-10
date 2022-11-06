@@ -6,12 +6,12 @@ const refs = {
   input: document.querySelector('input#search-box'),
 };
 const DEBOUNCE_DELAY = 300;
-
-fetchCountries = new fetchCountries();
+let query = '';
 
 document.addEventListener(
   'input',
   debounce(() => {
-    console.log(refs.input.value);
+    query = refs.input.value.trim();
+    fetchCountries(query);
   }, DEBOUNCE_DELAY)
 );
