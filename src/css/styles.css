@@ -29,6 +29,7 @@ body {
   height: auto;
   width: 30px;
   margin-right: 10px;
+  border: 1px solid #747474;
 }
 .js-country span {
   margin: 0;
@@ -46,6 +47,7 @@ body {
   height: auto;
   width: 30px;
   margin-right: 10px;
+  border: 1px solid #747474;
 }
 .js-true-country-name {
   margin: 0;

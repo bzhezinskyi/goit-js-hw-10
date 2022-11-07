@@ -1,17 +1,15 @@
 import './css/styles.css';
-import fetchCountries from './js/fetchCountries';
+import cteateCountries from './js/crieateCounties';
 
 const debounce = require('lodash.debounce');
-const refs = {
-  input: document.querySelector('input#search-box'),
-};
+const input = document.querySelector('input#search-box');
 const DEBOUNCE_DELAY = 300;
 let query = '';
 
 document.addEventListener(
   'input',
   debounce(() => {
-    query = refs.input.value.trim();
-    fetchCountries(query);
+    query = input.value.trim();
+    cteateCountries(query);
   }, DEBOUNCE_DELAY)
 );
